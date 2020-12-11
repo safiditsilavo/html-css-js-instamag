@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Instamag</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div id="down">
+                <a href="#article"><img src="images/down.png" alt="down"/></a>
+            </div>
+            <div id="menu">
+                <p>Madagascar différemment!</p>
+                <img id="album" src="images/album.png" alt="choix Album" usemap="#myMap"/>
+                
+                <map name="myMap">
+                    <area id="beast" alt="animal" title="animal" href="#animal" shape="rect" coords="0,0,272,205" style="outline:none;" target="_self" data-maphilight='animal' />
+                    <area id="ht" alt="ht" title="ht" href="#field" shape="rect" coords="420,285,720,503" style="outline:none;" target="_self" data-maphilight='ht' />
+                    <area id="paysage" alt="paysage" title="paysage" href="#landscape" shape="poly" coords="409,1,410,143,559,144,559,224,719,223,718,1" style="outline:none;" target="_self" data-maphilight='paysage' />
+                    <area id="beachs" alt="beach" title="beach" href="#beach" shape="poly" coords="0,293,214,293,213,382,343,381,342,502,0,500" style="outline:none;" target="_self" data-maphilight='beach' />
+                    <area id="towns" alt="town" title="town" href="#town" shape="poly" coords="271,144,558,145,557,284,420,285,419,380,212,382,215,205,272,206" style="outline:none;" target="_self" data-maphilight='town' />
+                </map>          
+            </div>
+        </header>
+        
+        <section id="article">
+            <p>La Capitale de la grande île</p>
+            <div id="town">
+                <div class="element">                
+                    <img src="images/antananarivo.jpg" alt="capital"/>
+                    <figcaption>La capitale de Madagascar</figcaption>
+                </div>
+                <div class="element">
+                    <img src="images/rova.jpg" alt="capital"/>
+                    <figcaption>Le Palais de la reine</figcaption>
+                </div>
+                <div class="element">
+                    <img src="images/mahamasina.jpg" alt="capital"/>
+                    <figcaption>Le lac Anosy et le stade de Mahamasina</figcaption>
+                </div>
+            </div>
+
+            <p>Les Hautes-Terres</p>
+            <div id="field">
+                <div class="element">  
+                    <img src="images/champ.jpg" alt="rizière"/>
+                    <figcaption>Les rizières des Hautes-Terres</figcaption>
+                </div>
+                <div class="element">
+                    <img src="images/round.JPG" alt="rizière"/>
+                    <figcaption>La mitique route de la RN7</figcaption>
+                </div>
+                <div class="element">
+                    <img src="images/village.jpg" alt="rizière"/>
+                    <figcaption>Village traditionnel</figcaption>
+                </div>
+            </div>
+
+            <p>Parmi les plus belles plages de l'île</p>
+            <div id="beach">
+                <div class="element">  
+                    <img src="images/mer_Diego.jpg" alt="mer de Diégo"/>
+                    <figcaption>Mer d'émeraudes</figcaption>
+                </div>
+                <div class="element">  
+                    <img src="images/antsanitia.jpg" alt="mer de Diégo"/>
+                    <figcaption>Couché du soleil sur la plage d'Antsanitia</figcaption>
+                </div>
+                <div class="element">  
+                    <img src="images/ambola.jpg" alt="mer de Diégo"/>
+                    <figcaption>Magnifique plage d'Ambola</figcaption>
+                </div>
+            </div>
+
+            <p>Les animaux endémiques à Madagascar</p>
+            <div id="animal">
+                <div class="element">    
+                    <img src="images/maki.jpg" alt="mer de Diégo"/>
+                    <figcaption>Maki de Madagascar</figcaption>
+                </div>
+                <div class="element">
+                    <img src="images/tsikoreva.jpg" alt="capital"/>
+                    <figcaption>Tsikoreva</figcaption>
+                </div>
+                <div class="element">    
+                    <img src="images/sifaka.jpg" alt="mer de Diégo"/>
+                    <figcaption>Sifaka de Madagascar</figcaption>
+                </div>
+            </div>
+
+            <p>Des paysages à couper le souffle</p>
+            <div id="landscape">
+                <div class="element">                  
+                    <img src="images/baobab.JPG" alt="mer de Diégo"/>
+                    <figcaption>Baobab miniature</figcaption>
+                </div>
+                <div class="element">    
+                    <img src="images/tsingy.jpg" alt="mer de Diégo"/>
+                    <figcaption>Tsingy de Bemaraha</figcaption>
+                </div>
+                <div class="element">    
+                    <img src="images/allee_baobab.jpg" alt="mer de Diégo"/>
+                    <figcaption>L'allée des Baobab</figcaption>
+                </div>
+            </div>
+        </section>
+
+        <a id="up" href="#menu"><img src="images/up.png" alt="retour"/></a>
+
+        <footer>
+            <p>Retrouvez plus de photos sur...</p>
+            <div class="contact-icons">
+                <a href=""><img src="images/phone.png"/></a>
+                <a href=""><img src="images/mail.png"/></a>
+                <a href=""><img src="images/facebook.png"/></a>
+                <a href=""><img src="images/twitter.png"/></a>
+            </div>
+            <p class="copyright">Copyright by ANDRIANJAKANIVO Safiditsilavo IGGLIA5 n°07</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
